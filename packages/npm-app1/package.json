@@ -22,5 +22,6 @@
   "repository": {
     "url": "https://github.com/saadulde45/lerna/tree/master/packages/npm-app1",
     "type": "git"
-  }
+  },
+  "gitHead": "766bf964911f6445e3f41c8d7f62dc9f2d8ff6d6"
 }

@@ -7,6 +7,9 @@
   "scripts": {
     "publish": "lerna run test && lerna publish"
   },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-private/"
+  },
   "repository": {
     "url": "https://github.com/saadulde45/lerna/",
     "type": "git"
