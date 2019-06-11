@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  },
+  "scripts": {
+    "publish": "lerna run test && lerna publish"
+  }
+}
