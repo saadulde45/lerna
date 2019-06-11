@@ -1,8 +1,8 @@
 {
   "name": "npm-app1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
-  "author": "Saad Ulde <saad.ulde@globant.com>",
+  "author": "Saad Ulde",
   "homepage": "",
   "license": "MIT",
   "main": "lib/npm-app1.js",
@@ -22,7 +22,5 @@
   "repository": {
     "url": "https://github.com/saadulde45/lerna/tree/master/packages/npm-app1",
     "type": "git"
-  },
-  "author": "Saad Ulde",
-  "license": "MIT"
+  }
 }
