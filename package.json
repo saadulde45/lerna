@@ -6,5 +6,11 @@
   },
   "scripts": {
     "publish": "lerna run test && lerna publish"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/saadulde45/lerna/",
+    "type": "git"
+  },
+  "author": "Saad Ulde",
+  "license": "MIT"
 }
