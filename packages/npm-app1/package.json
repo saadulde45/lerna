@@ -19,9 +19,8 @@
   "dependencies": {
     "moment": "^2.24.0"
   },
-  "repository": {
-    "url": "https://github.com/saadulde45/lerna/tree/master/packages/npm-app1",
-    "type": "git"
+  "publishConfig": {
+    "access": "public"
   },
-  "gitHead": "90333ed3a6db0962f0d495f9fc98a7f11713c228"
+  "gitHead": "9731e22597c926ddce88922dfe9f1a8093cbd966"
 }
