@@ -7,6 +7,9 @@
   "scripts": {
     "publish": "lerna run test && lerna publish"
   },
+  "config": {
+    "unsafe-perm": true
+  },
   "publishConfig": {
     "registry": "http://localhost:8081/repository/npm-private/"
   },
