@@ -1,6 +1,6 @@
 {
   "name": "npm-app1",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "> TODO: description",
   "author": "Saad Ulde",
   "homepage": "",
@@ -24,6 +24,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "bundledDependencies": ["react", "react-dom"],
+  "bundledDependencies": [
+    "react",
+    "react-dom"
+  ],
   "gitHead": "9731e22597c926ddce88922dfe9f1a8093cbd966"
 }
