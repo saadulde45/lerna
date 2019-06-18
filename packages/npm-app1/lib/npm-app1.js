@@ -3,5 +3,5 @@
 module.exports = npmApp1;
 
 function npmApp1() {
-    console.log('integrated in parent 3');
+    console.log('integrated in parent final');
 }
