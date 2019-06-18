@@ -1,4 +1,4 @@
-'use strict';
+import React from 'react';
 
 function npmApp1() {
     console.log('integrated in parent final');
@@ -6,7 +6,7 @@ function npmApp1() {
         <div>
             Child
         </div>
-    )
+    );
 }
 
 export default npmApp1;
