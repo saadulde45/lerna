@@ -2,13 +2,22 @@
   "name": "root",
   "version": "0.0.4",
   "devDependencies": {
-    "lerna": "^3.15.0"
+    "lerna": "^3.15.0",
+    "react-scripts": "^3.0.1"
   },
   "dependencies": {
-    "npm-app1": "0.0.7"
+    "npm-app1": "0.0.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "scripts": {
-    "publish": "lerna run test && lerna version && lerna publish from-package --no-verify-access --registry=http://localhost:8081/repository/npm-private/"
+    "publish": "lerna version && lerna publish from-package --no-verify-access --registry=http://localhost:8081/repository/npm-private/",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "config": {
     "unsafe-perm": true
@@ -21,5 +30,17 @@
     "type": "git"
   },
   "author": "Saad Ulde",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
