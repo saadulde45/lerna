@@ -24,5 +24,6 @@
   "publishConfig": {
     "access": "public"
   },
+  "bundledDependencies": ["react", "react-dom"],
   "gitHead": "9731e22597c926ddce88922dfe9f1a8093cbd966"
 }
