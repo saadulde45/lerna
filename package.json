@@ -6,8 +6,8 @@
     "react-scripts": "^3.0.1"
   },
   "dependencies": {
-    "react-app": "0.1.2",
     "react": "^16.8.6",
+    "react-app": "0.1.2",
     "react-dom": "^16.8.6"
   },
   "scripts": {
