@@ -14,10 +14,10 @@
     "dist"
   ],
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --env.mode development",
+    "start": "npm run build webpack-dev-server --config ./webpack.config.js --env.mode development",
     "start:prod": "webpack-dev-server --config ./webpack.config.js",
     "test": "jest --forceExit",
-    "build": "babel src --out-dir dist"
+    "build": "copyfiles index.html dist && copyfiles -f **/*.scss dist && babel src --out-dir dist"
   },
   "publishConfig": {
     "access": "public"
@@ -31,8 +31,13 @@
     "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.4",
+    "copyfiles": "^2.1.0",
+    "css-loader": "^3.0.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.2",
     "webpack-node-externals": "^1.7.2"

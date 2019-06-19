@@ -16,8 +16,8 @@ module.exports = ({ mode } = { mode: "production" }) => {
                 exclude: /node_modules/,
                 use: ["babel-loader"]
             }, {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }]
         },
         output: {
@@ -29,7 +29,7 @@ module.exports = ({ mode } = { mode: "production" }) => {
             contentBase: './dist'
         },
         resolve: {
-            extensions: ['*', '.js', '.jsx']
-        },
+            extensions: ['*', '.js', '.jsx', '.scss']
+        }
     }
 };

@@ -1,11 +1,14 @@
 import React from 'react';
+import './react-app.scss';
 
 class ReactApp extends React.Component {
     render() {
         return (
-            <div>
-                React Child
-        </div>
+            <div className="parent-wrapper">
+                <span className="title">
+                    React Child
+                </span>
+            </div>
         );
     }
 }
