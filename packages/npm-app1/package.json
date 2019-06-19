@@ -5,30 +5,35 @@
   "author": "Saad Ulde",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/npm-app1.js",
+  "main": "dist/npm-app1.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "build"
+    "dist"
   ],
   "scripts": {
     "test": "jest --forceExit",
-    "build": "react-scripts build"
-  },
-  "dependencies": {
-    "moment": "^2.24.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1"
+    "build": "babel src --out-dir dist"
   },
   "publishConfig": {
     "access": "public"
   },
-  "bundledDependencies": [
-    "react",
-    "react-dom"
-  ],
-  "gitHead": "9731e22597c926ddce88922dfe9f1a8093cbd966"
+  "gitHead": "9731e22597c926ddce88922dfe9f1a8093cbd966",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/register": "^7.4.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "ig": "0.0.5",
+    "webpack-node-externals": "^1.7.2"
+  }
 }
