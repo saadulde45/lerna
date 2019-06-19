@@ -1,14 +1,14 @@
 import React from 'react';
 
-class NpmApp1 extends React.Component {
+class ReactApp extends React.Component {
     render() {
         console.log('integrated in parent final');
         return (
             <div>
-                Child
+                React Child
         </div>
         );
     }
 }
 
-export default NpmApp1;
+export default ReactApp;
