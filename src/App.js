@@ -1,12 +1,12 @@
 import React from "react";
-import ReactApp from "react-app";
+import WCReactApp from "wc-react-app";
 
 class App extends React.Component {
     render() {
         return (
             <div>
                 Test parent
-            <ReactApp></ReactApp>
+            <WCReactApp></WCReactApp>
             </div>
         );
     }
